@@ -1,0 +1,14 @@
+[package]
+name = "tg-analytics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-util = "0.3.30"
+"grammers-client" = { git = "https://github.com/Lonami/grammers" }
+"grammers-session" = { git = "https://github.com/Lonami/grammers" }
+once_cell = "1.20.1"
+r2d2 = "0.8.10"
+r2d2_sqlite = "0.25.0"
+tokio = { version = "1.34.0", features = ["full"] }
+dotenvy = "0.15.7"
