@@ -1,4 +1,4 @@
-use analytics_bot::client::client;
+use tganalytics::client::client;
 fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
     let api_id = std::env::var("API-ID").unwrap().parse().unwrap();
     let api_hash = std::env::var("API-HASH").unwrap();
